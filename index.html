@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typing game | Annie</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header centered">Speed Typer</div>
+        <div class="timeAndScore centered">
+            <div class="timeLeft">Time : 10s</div>
+            <div class="score">score : 0</div>
+        </div>
+        <div class="typeTheFollow centered" >Type the following :</div>
+        <div><h1 class="randomWords centered"></h1></div>
+        <div class="centered">
+            <input class="gettingWordsFromInput inputNone" placeholder="Type the words here !" type="text">
+            <button onclick="gameInterval()" class="ready">Ready ?</button>
+        </div>
+    </div>
+
+    <div class="mainss">
+        <h2 style="color: white;">You are out heheh >></h2>
+        <h4 style="color: white;" class="scoress"></h4>
+    </div>
+
+    <script src="./assets/app.js"></script>
+</body>
+</html>

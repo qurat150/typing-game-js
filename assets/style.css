@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 180, 168);
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.centered,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main,
+.mainss {
+  width: 500px;
+  background-color: rgb(0, 111, 89);
+  height: 250px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.header {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: black;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  font-size: 25px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.timeAndScore {
+  color: white;
+  height: 20px;
+  background-color: transparent;
+  font-size: 16px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.typeTheFollow {
+  justify-content: center;
+  color: white;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.randomWords {
+  color: white;
+  margin-bottom: 10px;
+}
+.gettingWordsFromInput {
+  width: 70%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+}
+.inputNone{
+  display: none;
+}
+.ready,
+.next {
+  width: 20%;
+  height: 35px;
+  font-weight: 600;
+  margin: 0 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.next {
+  display: none;
+}
+.mainss {
+  display: none;
+}
