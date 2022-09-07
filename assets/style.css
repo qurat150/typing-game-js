@@ -82,5 +82,16 @@ body {
   display: none;
 }
 .mainss {
+  display: flex;
   display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.outText{
+  color: white;
+}
+
+.scoress{
+  color: white;
 }

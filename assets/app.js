@@ -45,7 +45,7 @@ const gameInterval = () => {
     if (timer == 0) {
       clearInterval(interval);
       document.querySelector(".main").style.display = "none";
-      document.querySelector(".mainss").style.display = "block";
+      document.querySelector(".mainss").style.display = "flex";
       document.querySelector(".scoress").innerHTML = "Your Score is : " + score;
     }
   }, 1000);
